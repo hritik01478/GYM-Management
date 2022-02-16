@@ -9,36 +9,36 @@ body{
 
 .left{
     display: inline-block;
-    /* border: 2px red solid; */
     position: absolute;
-    left: 34px;
+    left: 40px;
     top: 20px;
 }
 .left img{
-    width: 100px;
-    height:60px;
+    width: 130px;
+    height: 70px;
     filter: invert(100%);
 
 }
 .left div{
     line-height: 15px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 1000;
     text-align: center;
 }
 .mid{
     display: block;
-    width: 43%;
+    width: 55%;
     margin: 20px auto;
-    font-size: 23px;
-    /* border: 2px yellow solid; */
+    margin-top: 30px;
+    font-size: 30px;
 }
 .right{
     display: inline-block;
-    /* border: 2px green solid; */
     position: absolute;
     right: 34px;
-    top:20px;
+    top: 30px;
+    padding: 6px;
+    width: 15%;
 }
 .navbar li{
     display: inline-block;
@@ -46,7 +46,7 @@ body{
 .navbar a{
     color: aqua;
     text-decoration: none;
-    padding: 25px 15px;
+    padding: 25px 12px;
 }
 .navbar a:hover, .navbar li a.active{
     text-decoration: underline;
@@ -54,7 +54,7 @@ body{
 }
 .btn{
     margin: 0px 9px;
-    padding: 2px 8px;
+    padding: 2px 6px;
     background-color: black;
     color: white;
     border: 2px solid grey;
